@@ -56,14 +56,15 @@
   margin: 1rem; }
 
 .section-about .card {
-  width: 100%; }
+  width: 80%; }
   .section-about .card h5 {
     font-size: 1rem;
     font-weight: 900;
     color: black; }
   .section-about .card .progress {
     -webkit-box-shadow: 9px 7px #e6dfdf;
-    box-shadow: 9px 7px #e6dfdf; }
+    box-shadow: 9px 7px #e6dfdf;
+    height: 10px; }
   .section-about .card .progress-title {
     text-align: right !important;
     margin: .4rem;
@@ -145,7 +146,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .section-about .card {
-    width: 20rem;
+    width: 100%;
     font-size: 1rem;
     font-weight: 900; }
   .section-about .topsideleft {
