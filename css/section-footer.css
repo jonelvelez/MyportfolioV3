@@ -1,0 +1,30 @@
+.section-footer svg.svg-inline--fa {
+  font-size: 1.5rem;
+  margin-right: .5rem;
+  text-decoration: none; }
+  .section-footer svg.svg-inline--fa:hover {
+    color: #1ebba3 !important; }
+
+.section-footer a {
+  color: white; }
+
+.section-footer .form-control {
+  border-radius: 0;
+  border: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #f2f3f7; }
+
+.section-footer .borderRed {
+  border-bottom: solid 2px #ec5f5f; }
+
+.section-footer .borderGreen {
+  border-bottom: solid 2px #51d63f; }
+
+.section-footer .span1 {
+  color: #ec5f5f;
+  font-size: 10px; }
+
+.section-footer .span2 {
+  color: #ec5f5f;
+  font-size: 10px; }

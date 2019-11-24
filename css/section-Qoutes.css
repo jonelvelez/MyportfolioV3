@@ -1,0 +1,23 @@
+/* section-Qouters */
+.section-Qoutes .fixed-background {
+  background-image: url(../img/qoutesbg.jpg);
+  margin-bottom: 0px;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.section-Qoutes .overlay {
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, color-stop(23%, black), color-stop(60%, rgba(7, 51, 93, 0.644695)));
+  background: -webkit-linear-gradient(left, black 23%, rgba(7, 51, 93, 0.644695) 60%);
+  background: -o-linear-gradient(left, black 23%, rgba(7, 51, 93, 0.644695) 60%);
+  background: linear-gradient(90deg, black 23%, rgba(7, 51, 93, 0.644695) 60%);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
+
+.section-Qoutes .text {
+  opacity: 0; }
