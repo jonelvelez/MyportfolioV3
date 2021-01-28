@@ -1,0 +1,148 @@
+/*About Me Section*/
+.section-about .me img {
+  width: 100%;
+  border-radius: 50%; }
+.section-about .AboutBtn {
+  padding: 10px;
+  border: 2px solid #000;
+  text-decoration: none;
+  position: absolute;
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  transition: .5s all;
+  left: 30%;
+  top: 100%;
+  background-color: black; }
+  .section-about .AboutBtn:hover {
+    color: white; }
+.section-about blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem; }
+.section-about .card {
+  width: 80%; }
+  .section-about .card h5 {
+    font-size: 1rem;
+    font-weight: 900;
+    color: black; }
+  .section-about .card .progress {
+    box-shadow: 9px 7px #e6dfdf;
+    height: 10px; }
+  .section-about .card .progress-title {
+    text-align: right !important;
+    margin: .4rem;
+    font-size: 13px;
+    font-style: oblique; }
+.section-about .topsideleft {
+  position: absolute;
+  bottom: 70%;
+  right: 100%;
+  width: 70%; }
+.section-about #svgline path {
+  stroke-dasharray: 1804px;
+  stroke-dashoffset: 1804px;
+  animation: line-anim 5s ease forwards; }
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0; } }
+.section-about .topsideright {
+  position: absolute;
+  bottom: 85%;
+  left: 200%;
+  width: 70%;
+  height: 200px; }
+.section-about .bottomsideleft {
+  position: absolute;
+  top: 80%;
+  left: 200%;
+  width: 70%;
+  height: 200px; }
+.section-about .bottomsideright {
+  position: absolute;
+  top: 80%;
+  right: 100%;
+  width: 70%;
+  height: 200px; }
+@media only screen and (max-width: 414px) {
+  .section-about .topsideleft {
+    display: none; }
+  .section-about .topsideright {
+    display: none; }
+  .section-about .bottomsideleft {
+    display: none; }
+  .section-about .bottomsideright {
+    display: none; }
+  .section-about img {
+    max-width: 70%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .section-about .AboutBtn {
+    padding: 10;
+    border: 0 !important;
+    margin: 0 !important;
+    text-decoration: underline;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    color: skyblue;
+    font-weight: 900;
+    transition: .5s all;
+    left: 40%;
+    top: 76%;
+    background-color: white; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-about .card {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 900; }
+  .section-about .topsideleft {
+    position: absolute;
+    bottom: 90%;
+    right: 100%;
+    width: 70%;
+    height: 200px; }
+    .section-about .topsideleft svg {
+      width: 150px; }
+  .section-about .topsideright {
+    position: absolute;
+    bottom: 90%;
+    left: 210%;
+    width: 70%;
+    height: 200px; }
+    .section-about .topsideright svg {
+      width: 150px; }
+  .section-about .bottomsideleft {
+    position: absolute;
+    top: 73%;
+    left: 215%;
+    width: 70%;
+    height: 200px; }
+    .section-about .bottomsideleft svg {
+      width: 150px; }
+  .section-about .bottomsideright {
+    position: absolute;
+    top: 73%;
+    right: 100%;
+    width: 70%;
+    height: 200px; }
+    .section-about .bottomsideright svg {
+      width: 150px; }
+  .section-about .AboutBtn {
+    padding: 10px;
+    border: 2px solid #000;
+    text-decoration: none;
+    position: absolute;
+    width: 110px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 10px;
+    transition: .5s all;
+    left: 20%;
+    top: 100%;
+    background-color: black; } }
+
+/*# sourceMappingURL=section-about.css.map */

@@ -1,0 +1,23 @@
+/* Navigation */
+.section-navbar .navbar {
+  transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem; }
+.section-navbar .navbar-nav {
+  color: white;
+  box-shadow: 2px 2px; }
+  .section-navbar .navbar-nav li {
+    padding-right: .7rem; }
+.section-navbar a {
+  color: white; }
+  .section-navbar a:after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #944f00;
+    transition: 0.2s; }
+  .section-navbar a:hover:after {
+    width: 100%; }
+
+/*# sourceMappingURL=section-navbar.css.map */

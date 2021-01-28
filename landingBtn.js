@@ -4,7 +4,7 @@ h6 = document.querySelector('.caption h6')
 boxBorder = document.querySelector('.Boxbottomleft')
 boxBordex2 = document.querySelector('.Boxtopright')
 landing = document.querySelector('.landing')
-
+screenHeight = screen.height;
 
 LandButton.addEventListener('click', function(e){
     //Add Class
@@ -27,8 +27,15 @@ LandButton.addEventListener('click', function(e){
         boxBorder.classList.remove('AddKeyframe');
         boxBordex2.classList.remove('AddKeyframe');
         landing.classList.remove('landAddclass');
-        window.scrollBy(0, 610);
+
+        if (screenHeight > 500) {
+            window.scrollBy(0, screenHeight - 150);
+        } else {
+        window.scrollBy(0, screenHeight);
+        }
     }, 3000);
+
+    console.log(screenHeight)
 });
 
 //How to get svg path length(need this for animation on svg)
