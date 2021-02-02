@@ -1,6 +1,6 @@
 .section-homepage-landing .landing {
   background-image: url(../img/bg3.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 .section-homepage-landing .landAddclass {
